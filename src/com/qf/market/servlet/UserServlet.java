@@ -62,7 +62,7 @@ public class UserServlet extends FatherServlet {
 
         int result=userService.updatePassword(newPwd,uaccount);
         if (result>0){
-
+             System.out.println("这是分支的第二次提交！");
         }else{
 
         }
